@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: hsl(205, 33%, 90%);
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("PlusJakartaSans-VariableFont_wght.ttf") format("truetype"),
+    url("PlusJakartaSans-ExtraBold.ttf") format("truetype"),
+    url("PlusJakartaSans-Medium.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+.landing-interactionPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 70px;
+}
+
+.mother {
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.landing-interactionPage .image img {
+  width: 60px;
+  border-radius: 50px;
+  height: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.click-Box {
+  background-color: whitesmoke;
+  padding: 13px 30px;
+  border-radius: 25px;
+  margin-left: 25px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.click-Box h3 {
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans";
+  word-spacing: 3px;
+  color: gray;
+  font-size: 17px;
+}
+
+.iconsMother {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.iconsMother:hover {
+  background-color: hsl(205, 33%, 90%);
+}
+.iconsMother i {
+  font-size: 25px;
+  color: tomato;
+}
+
+.iconsMother p {
+  font-size: 15px;
+  color: gray;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+.ownersShipName p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.headContent {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.headContent h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.written-post {
+  background-color: hsl(210, 60%, 98%);
+  width: 500px;
+  border-radius: 10px;
+}
+
+.cancelIcon {
+  background-color: hsl(219, 14%, 63%);
+  padding: 5px 8px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.cancelIcon i {
+  font-size: 24px;
+  color: hsl(219, 12%, 42%);
+}
+
+.landing-interactionPages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.landing-interactionPages .images img {
+  width: 58px;
+  border-radius: 50%;
+  height: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.ownersShipName p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+.images {
+  margin-left: 15px;
+}
+
+.scrollElement {
+  overflow-y: scroll;
+}
+
+#text-area-content {
+  padding: 20px 180px;
+  resize: none;
+}
